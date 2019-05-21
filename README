@@ -1,0 +1,5 @@
+* STM32 Baremetals
+
+All projects here are tested on a Virtual Prototype I'm developing at Hiventive. Most of them are tested on a real hardware ( STM32F4Discovery Board ),
+but some aren't.
+Some functionalities aren't implemented yet on the prototype and therefore some codes aren't optimal i.e. the overabuse of polling instead of interrupts.
