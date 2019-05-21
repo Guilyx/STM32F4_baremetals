@@ -1,8 +1,10 @@
-/*
- * @author Erwin Lejeune
- * @date 28/03/2019
- * @project Morse_Encoder
- * @description UART to Morse Code with LEDs
+/**
+ * @project Basic Timer Test
+ * @author Erwin Lejeune <erwin.lejeune15@gmail.com>
+ * @date May, 2019
+ * @copyright Copyright (C) MIT Licence.
+ *
+ * @brief STMicroelectronics STM32F4xx TIM
  */
 
 #include <stdio.h>
@@ -14,10 +16,6 @@
 #include "stm32f4xx_hal_tim_ex.h"
 #include "stm32f4xx_hal_rcc.h"
 
-// ----------------------------------------------------------------------------
-// Insert Description here
-//
-// ----- main() ---------------------------------------------------------------
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wunused-parameter"
